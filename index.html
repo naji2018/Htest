@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>GDPR Processing</title>
+  </head>
+  <body>
+    <img
+      src="https://m.media-amazon.com/images/I/91ORNgyTf2L.png"
+      class="img-fluid"
+      alt="ClashOfClans Procedure"
+    />
+    <h1 class="text1">GDPR Procedure</h1>
+    <div class="dropdown">
+      <label class="Text1" for="t1">T1</label>
+      <select id="t6" class="form-select">
+        <option class="dropdown-item" value="GDPR">GDPR</option>
+        <option class="dropdown-item" value="otherissue">Other</option>
+      </select>
+      <select class="form-select" id="t1">
+        <option value="deflected">deflected</option>
+        <option value="not deflected">Not deflected</option>
+      </select>
+      <select class="form-select" id="t2">
+        <option value="eligible">Eligible</option>
+        <option value="not eligible">Not Eligible</option>
+      </select>
+      <select class="form-select" id="t3">
+        <option value="compromised">compromised</option>
+        <option value="not compromised">not compromised</option>
+      </select>
+      <select class="form-select" id="t4">
+        <option value="protected">protected</option>
+        <option value="not protected">not protected</option>
+      </select>
+      <select class="form-select" id="t5">
+        <option value="locked">locked</option>
+        <option value="Unlocked">Unlocked</option>
+      </select>
+
+      <button id="click1" class="btn btn-primary" onclick="processData1()">
+        Click
+      </button>
+      <div>
+        <h1 class="border" id="output"></h1>
+      </div>
+    </div>
+
+    <div class="dropdown" class="result">
+      <label class="Text1" for="tt1">T2</label>
+      <select class="form-select" id="tt5">
+        <option value="GDPR">GDPR</option>
+        <option value="OtherIsusse">Other Issue</option>
+      </select>
+      <select class="form-select" id="tt1">
+        <option value="eligible">Eligible</option>
+        <option value="not eligible">Not Eligible</option>
+      </select>
+      <select class="form-select" id="tt2">
+        <option value="compromised">compromised</option>
+        <option value="not compromised">not compromised</option>
+      </select>
+      <select class="form-select" id="tt3">
+        <option value="protected">protected</option>
+        <option value="not protected">not protected</option>
+      </select>
+      <select class="form-select" id="tt4">
+        <option value="locked">locked</option>
+        <option value="Unlocked">Unlocked</option>
+      </select>
+
+      <button id="click2" class="btn btn-primary" onclick="processData()">
+        click
+      </button>
+    </div>
+    <div class="border">
+      <h1 id="output1"></h1>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>

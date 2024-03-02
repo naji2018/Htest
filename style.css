@@ -1,0 +1,28 @@
+* {
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+}
+
+#click1 {
+  width: 60.818182px;
+  height: 38.818182px;
+}
+.text1 {
+  text-align: center;
+  margin-top: 5vh;
+}
+.img-fluid {
+  padding-bottom: 0px;
+  width: 1020px;
+  height: 310px;
+}
+.border {
+  padding: 50px;
+}
+
+.Text1 {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
